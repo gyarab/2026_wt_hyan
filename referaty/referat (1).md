@@ -1,6 +1,6 @@
 #Martin Fowler 
 
-![alt text](image.png)
+![obrazek-Martin Fowler](image.png)
 
 Narozen 18. prosince 1963 ve Velké Británii.
 Martni Fowler je britský vývojář softwaru, autor a 
