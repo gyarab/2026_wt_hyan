@@ -17,5 +17,5 @@ Martin Fowler
     -mezinárodní řečník
 
     odkaz_biografie: https://cs.wikipedia.org/wiki/Martin_Fowler, https://martinfowler.com/  
-    odkaz_obrázek: https://martinfowler.com/img/mf-dallas.jpg
+    odkaz_obrázek: https://www.thoughtworks.com/profiles/leaders/martin-fowler
 
