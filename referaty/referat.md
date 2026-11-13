@@ -1,3 +1,0 @@
-ahojky
-# cau
--hell yeah
