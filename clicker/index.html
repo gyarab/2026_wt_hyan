@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="cs" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+    <style>
+        a{
+            text-decoration: none;
+            background-color: #ffffff;
+        }
+        .ramec{
+            border: 10px solid #DE670D;
+            max-width: 400px;
+            padding: 35px;
+            border-radius: 18px;
+            margin:auto;
+            background-color: rgb(255, 255, 255);
+        }
+        h1{
+            text-align: center; 
+            font-family: Georgia;
+            margin-bottom: 35px;
+            text-color: #ffffff;
+        }
+        h2{
+            text-align:center;
+            margin-left: 30px;
+            font-size: 25px;
+            font-family:monospace;
+            ext-color: #ffffff;
+        }
+    </style>
+    <script>   
+        counter = 0;
+        function clicker(){
+            counter=counter + 1;
+            }
+    </script>
+    <script>
+        function reset(){
+            counter=0;
+        }
+    </script>
+</head>
+<body>
+<p> </p>
+<p> </p>
+    <div class="container-fluid" text-align="center">
+        <div class="ramec">
+            <div class="counter" style="text-align: center;">
+                <h2>Počet kliknutí: 
+                    <span id="counterValue"> 0
+                    </span>
+                </h2>
+                <button class onclick="clicker(); document.getElementById('counterValue').innerText = counter;">Click</button>
+                <button class onclick="reset(); document.getElementById('counterValue').innerText = counter;">Reset</button>
+        </div>
+    </div>
+</body>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+
+</html>
