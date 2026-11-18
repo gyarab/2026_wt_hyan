@@ -4,10 +4,92 @@
         <meta charset="UTF-8">
         <title>Vizitka</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <style></style>
+        <style>
+            h1{text-align: center; 
+                font-family: Georgia;
+                margin-bottom: 35px;
+            }
+            h1:hover{
+                color: #DE670D;
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: 0.3s;
+            }
+            h2{
+                text-align:left;
+                margin-left: 30px;
+                font-size: 25px;
+                font-family:monospace;
+            }
+            
+            h3{
+                text-align: left;
+                margin-left: 50px;
+                font-size: 40px;
+                font-family:Courier;
+            }
+            h3:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: 0.3s;
+            }
+            .ramec{
+                border: 10px solid #DE670D;
+                max-width: 700px;
+                padding: 35px;
+                border-radius: 11px;
+                margin:auto;
+                background-color: rgb(219, 215, 215);
+            }
+            .umisteniFotky {
+            vertical-align: middle;
+            border:#000000 100px;
+            }
+            .button {
+            background-color: #DE670D;
+            color: rgb(161, 15, 15);
+            padding: 15px 30px; 
+            border: 3px;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            }            
+        </style>
+        <script>
+            function tlacitko(){
+            alert("Tel. cislo: 123 456 789")
+        }
+        </script>
+
     </head>
     <body>
-           
+        <h1>VIZITKA</h1>
+        <div class="container-fluid; text-align center">
+        <div class="ramec">
+        <h3>
+            <strong>Oliver Hyan</strong>
+            <div class="umisteniFotky">
+            <img src="../obrazky/O.H._obrazek-vizitka.jpg" alt="Obrázek mě" style="width:100px; height:100px">           </div>
+
+        </h3>
+        
+        <h2>
+            Student gymnazia Arabska, obor programovani 
+            <p> </p>
+                
+            <p>Co mam rad:</p>
+        <ul>
+            <li>Technologie</li>
+            <li>Auta</li>
+            <li>Lego</li>
+        </ul>
+        </h2>
+        <span onclick ="tlacitko();">
+            <button type"button">Info</button>
+        </span>
+        </div>
+    </div>
+
         <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
     </body>
 </html>
